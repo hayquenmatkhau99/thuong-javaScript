@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="deno-head-wrap">
+        <div class="demo-head">
+            <div class="demo-name">
+                <h2>Personal Loan Application Form</h2>
+            </div>
+            <div class="demo-action">
+                <a class="demo_btn" href="#download">Download</a>
+            </div>
+        </div>
+        <div class="demo-body">
+            <div>
+                <div class="demo-first">
+                    <h3>Personal Information</h3>
+                </div>
+                <div class="form-group">
+                    <form method="get" action="#" id="byform">
+                        <div class="name">
+                            <label class="request_lable">Title</label>
+                        </div>
+                        <div class="name_dropdown">
+                            <select name="dropdown" id="dropdown">
+                                <option value="">- Select -</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Ms">Ms</option>
+
+                            </select>
+                            <span class="first_dropdown">This field is required</span>
+                        </div>
+                    </form>
+                </div>
+                <form method="get" action="#" id="myform">
+                    <div class="form">
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="request_lable">First Name</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="text" name="names[first_name]" id="first_name" />
+                                <span class="sup_first_name">This field is required</span>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="request_lable">Last Name</label>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" name="names[last_name]" id="last_name" />
+                                <span class="pix_first_name">This field is required</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="name">
+                            <label class="request_lable">Birth Date</label>
+                        </div>
+                        <div class="name_date">
+                            <input type="date" name="datetime" id=" birth_date">
+                            <span class="first_date">This field is required</span>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <div class="name">
+                        <label class="request_lable">Marital Status</label>
+                    </div>
+
+                    <div class="check-lable">
+                        <label class="form-check-label" for="input_radio_"><input type="radio" name="input_radio"
+                                data-name="input_radio" class="check-radio" value="Single" id="input_radio_">
+                            <span>Single</span></label>
+                        <label class="form-check-label" for="input_radio"><input type="radio" name="input_radio"
+                                data-name="input_radio" class="check-radio" value="Married" id="input_radio">
+                            <span>Married</span></label>
+                        <label class="form-check-label" for="input_radio"><input type="radio" name="input_radio"
+                                data-name="input_radio" class="check-radio" value="Other" id="input_radio">
+                            <span>Other</span></label>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="name">
+                        <label class="request_lable">Email</label>
+                    </div>
+                    <div class="name_dropdown">
+                        <input type="email" name="email" id="ff_50_email" class="ff-el-form-control" data-name="email">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="name">
+                        <label class="request_lable">Phone no.</label>
+                    </div>
+                    <div class="name_dropdown">
+                        <input type="number" name="numeric-field" id="ff_50_numeric-field" class="ff-el-form-control"
+                            data-name="numeric-field" inputmode="numeric" step="any">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="name">
+                        <label class="request_lable">Address</label>
+                    </div>
+                    <div class="form">
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="request_lable">Address Line 1</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="text" name="address1[address_line_1]" id="ff_50_address1_address_line_1_"
+                                    class="ff-el-form-control" data-key_name="address_line_1">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="name">
+                                <label>Address Line 2</label>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" name="address1[address_line_2]" id="ff_50_address1_address_line_2_"
+                                    class="ff-el-form-control" data-key_name="address_line_2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="request_lable">City</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="text" name="address1[city]" id="ff_50_address1_city_"
+                                    class="ff-el-form-control" data-key_name="city">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="request_lable">State</label>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" name="address1[state]" id="ff_50_address1_state_"
+                                    class="ff-el-form-control" data-key_name="state">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="name">
+                            <label class="request_lable">Zip Code</label>
+                        </div>
+                        <div class="name-address">
+                            <input type="text" name="address1[zip]" id="ff_50_address1_zip_" class="ff-el-form-control"
+                                data-key_name="zip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="name">
+                            <label class="request_lable">How long have you lived in your given address? </label>
+                        </div>
+                        <div class="check-lable">
+                            <label class="ff-el-form-check-label"
+                                for="input_radio_1_2744f1ed78e62366732e8612a9544b50"><input type="radio"
+                                    name="input_radio_1" data-name="input_radio_1"
+                                    class="ff-el-form-check-input ff-el-form-check-radio" value="0-1 years"
+                                    id="input_radio_1_2744f1ed78e62366732e8612a9544b50"> <span>0-1 years</span></label>
+                            <label class="ff-el-form-check-label"
+                                for="input_radio_1_ac2b482095851924570d3b89ca2ecd10"><input type="radio"
+                                    name="input_radio_1" data-name="input_radio_1"
+                                    class="ff-el-form-check-input ff-el-form-check-radio" value="1-2 years"
+                                    id="input_radio_1_ac2b482095851924570d3b89ca2ecd10"> <span>1-2 years</span></label>
+                            <label class="ff-el-form-check-label"
+                                for="input_radio_1_2f13c99eef1a213d786a182375e9b4bd"><input type="radio"
+                                    name="input_radio_1" data-name="input_radio_1"
+                                    class="ff-el-form-check-input ff-el-form-check-radio" value="2-3 years"
+                                    id="input_radio_1_2f13c99eef1a213d786a182375e9b4bd"> <span>2-3 years</span></label>
+                            <label class="ff-el-form-check-label"
+                                for="input_radio_1_ee687fbd0e0e71106382a64b4b17059d"><input type="radio"
+                                    name="input_radio_1" data-name="input_radio_1"
+                                    class="ff-el-form-check-input ff-el-form-check-radio" value="3-4 years"
+                                    id="input_radio_1_ee687fbd0e0e71106382a64b4b17059d"> <span>3-4 years</span></label>
+                            <label class="ff-el-form-check-label"
+                                for="input_radio_1_466ea56507fa78b57c396482403abd3c"><input type="radio"
+                                    name="input_radio_1" data-name="input_radio_1"
+                                    class="ff-el-form-check-input ff-el-form-check-radio" value="5+ years"
+                                    id="input_radio_1_466ea56507fa78b57c396482403abd3c"> <span>5+ years</span></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="click">
+                <button onclick="check_step_one()">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
